@@ -4,7 +4,10 @@ inputs:
   docker-image:
     description: 'Docker image'
     required: true
-ouætputs:
+  save-path:
+    description: 'Path to save the Apptainer sif file'
+    required: true
+outputs:
   image:
     description: 'Apptainer sif image file'
 runs:
