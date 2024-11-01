@@ -21,7 +21,7 @@ The path to the Apptainer sif image file.
 ## Example usage
 
 ```yaml
-uses: actions/docker2apptainer
+uses: andstor/docker2apptainer
 with:
   docker-image: 'docker://ubuntu:latest'
   save-path: 'ubuntu.sif'
